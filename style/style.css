@@ -539,6 +539,12 @@ h1{
   width: 180px;
   margin: 10px;
 }
+  span{
+  overflow: hidden;
+  }
+  .main a{
+  overflow: hidden;
+  }
 .search{
 width: 100%;
 display: flex;
