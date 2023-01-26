@@ -130,16 +130,6 @@ h1 {
   font-weight: 400;
   margin: 30px;
 }
-/* .main .content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  width: 80%;
-  height: 70px;
-  padding: 20px;
-  margin: 30px;
-} */
 .main input {
   width: 40%;
   height: 45px;
@@ -543,7 +533,7 @@ header .left .sec{
 h1{
   margin: 10px auto;
   text-align: center;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .main input,select,button{
   width: 180px;
@@ -560,7 +550,7 @@ justify-content: center;
   width: 70%;
   align-self: flex-start;
   margin: 15px 0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .links{
   width: 300px;
@@ -571,7 +561,7 @@ justify-content: center;
 .links a{
 width: 100px;
 text-align: center;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .wazaef{
   width: 100%;
@@ -603,7 +593,7 @@ font-weight: 700;
 .company a{
   width: 100%;
   height: 60px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .content-1{
   display: flex;
