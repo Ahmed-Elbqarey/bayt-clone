@@ -130,16 +130,6 @@ h1 {
   font-weight: 400;
   margin: 30px;
 }
-/* .main .content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  width: 80%;
-  height: 70px;
-  padding: 20px;
-  margin: 30px;
-} */
 .main input {
   width: 40%;
   height: 45px;
@@ -184,7 +174,7 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 .links a {
   padding: 15px;
@@ -195,6 +185,11 @@ h2 {
   font-size: 15px;
   font-weight: 600;
   text-transform: capitalize;
+}
+.links a:hover{
+  background-color: var(--main-color);
+  color: white;
+
 }
 /* end search section  */
 
@@ -317,11 +312,18 @@ h3 {
   align-items: center;
   flex-wrap: wrap;
   width: 1000px;
-  margin-right: 75px;
+  margin:0 auto;
 }
 .search img {
   width: 320px;
   margin: 30px 0;
+}
+.search button{
+  margin-top: 25px;
+}
+ button:hover{
+  background-color: var(--main-color);
+  color: white;
 }
 .text {
   position: relative;
@@ -389,7 +391,7 @@ h3 {
   margin-top: 30px;
 }
 .person .content img {
-  width: 110px;
+  width: 130px;
   height: 120px;
   border-radius: 50%;
   margin: 20px;
@@ -563,16 +565,6 @@ justify-content: center;
 }
 span{
   overflow: hidden;
-}
-.links{
-  width: 300px;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: flex-start;
-}
-.links a{
-width: 100px;
-text-align: center;
 }
 .main a{
 overflow: hidden;
