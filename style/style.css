@@ -364,6 +364,7 @@ h3 {
   position: absolute;
   top: 50%;
   left: 22%;
+  font-size: 30px;
 }
 /* end search section  */
 
@@ -551,6 +552,12 @@ h1{
   width: 180px;
   margin: 10px;
 }
+  span{
+  overflow: hidden;
+  }
+  .main a{
+  overflow: hidden;
+  }
 .search{
 width: 100%;
 display: flex;
@@ -562,12 +569,14 @@ justify-content: center;
   width: 70%;
   align-self: flex-start;
   margin: 15px 0;
+  overflow: hidden;
 }
 span{
   overflow: hidden;
 }
-.main a{
-overflow: hidden;
+.links a{
+width: 100px;
+text-align: center;
 }
 .wazaef{
   width: 100%;
@@ -599,7 +608,6 @@ font-weight: 700;
 .company a{
   width: 100%;
   height: 60px;
-overflow: hidden;
 }
 .content-1{
   display: flex;
